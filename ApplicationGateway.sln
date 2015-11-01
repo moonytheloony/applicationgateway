@@ -5,8 +5,30 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C82DAB30-8A38-4307-814C-A1F059EF4729}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{1AB6DD8C-D621-4491-99B9-EE7851E124B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationGateway.Applications.NoScale", "ApplicationGateway.Applications.NoScale\ApplicationGateway.Applications.NoScale.csproj", "{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{0631403E-3151-40D6-A68D-685956BB9C67}"
+	ProjectSection(SolutionItems) = preProject
+		GatewayConfiguration.xml = GatewayConfiguration.xml
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03D6FF43-4BAA-4CFD-8798-D2794E29BCBA} = {1AB6DD8C-D621-4491-99B9-EE7851E124B1}
 	EndGlobalSection
 EndGlobal
