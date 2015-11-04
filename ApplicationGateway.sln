@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C82DAB30-8A38-4307-814C-A1F059EF4729}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\rahulrai\Desktop\GatewayCreationScript.ps1 = C:\Users\rahulrai\Desktop\GatewayCreationScript.ps1
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{1AB6DD8C-D621-4491-99B9-EE7851E124B1}"
 EndProject
